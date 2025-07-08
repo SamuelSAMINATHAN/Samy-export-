@@ -1,11 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function ActualitesPage() {
+  const { t } = useTranslation();
+
   return (
     <section className="min-h-screen bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-12 font-serif uppercase tracking-wide">
-          Actualités
+        <h1 className="text-4xl font-bold text-center text-red-700 mb-12 font-serif uppercase tracking-wide">
+          {t("news_title")}
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -15,13 +18,13 @@ export default function ActualitesPage() {
               src="/arun.mp4"
               controls
               className="rounded-lg max-h-[500px] w-auto object-contain bg-black mb-4"
-              aria-label="Vidéo actualité"
+              aria-label={t("news1_title")}
             />
             <h2 className="text-2xl font-bold text-gray-700 mb-2 text-center">
-              Film soutenu par l'entreprise
+              {t("news1_title")}
             </h2>
             <p className="text-gray-600 text-center">
-              Samy Exports a eu l’opportunité de soutenir un projet cinématographique et de participer à sa diffusion en France.
+              {t("news1_desc")}
             </p>
           </div>
 
@@ -29,15 +32,21 @@ export default function ActualitesPage() {
           <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center">
             <img
               src="/concours-affiche.jpg"
-              alt="Affiche du concours de cuisine"
+              alt={t("news2_title")}
               className="rounded-lg max-h-[500px] w-auto object-contain bg-gray-100 mb-4"
             />
             <h2 className="text-2xl font-bold text-gray-700 mb-2 text-center">
-              Concours de cuisine en Inde
+              {t("news2_title")}
             </h2>
-            <p className="text-gray-600 text-center">
-              Participez à notre grand concours de cuisine en Inde et tentez de remporter 3 000 roupies. Mettez en avant votre talent et votre créativité culinaire !
+            <p className="text-gray-600 text-center mb-4">
+              {t("news2_desc")}
             </p>
+            <a
+              href="#participer"
+              className="inline-block bg-orange-600 text-white px-6 py-2 rounded-md font-semibold shadow hover:bg-orange-700 transition w-max"
+            >
+              {t("news2_btn")}
+            </a>
           </div>
         </div>
       </div>

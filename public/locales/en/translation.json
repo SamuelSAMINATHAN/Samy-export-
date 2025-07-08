@@ -27,5 +27,21 @@
   "carousel_slide3_subtitle": "We are developing our project in the heart of Tamil Nadu",
   "carousel_slide3_cta": "Our story",
   "welcome_desc": "Since our beginnings, we are committed to sharing the authentic flavors of Indian spices. Each product we develop is the result of local work and family passion. Our priority: quality, respect for farmers, and customer satisfaction.",
-  "welcome_img_alt": "Indian spices"
-} 
+  "welcome_img_alt": "Indian spices",
+    "news_title": "News",
+    "news1_title": "Film supported by the company",
+    "news1_desc": "The company funded a film and contributed to its release in France.",
+    "news2_title": "Cooking contest in India",
+    "news2_desc": "Cooking contest in India – 3,000 rupees to win.",
+    "news2_btn": "Participate",
+  
+    "history_title": "OUR STORY",
+    "history_subtitle": "THE HERITAGE OF A FAMILY BUSINESS",
+    "history_block1_text": "Our export company was born from the vision of Mr. Parameiyan Saminathan, a passionate farmer from Tamil Nadu. Coming from a family of farmers for generations, he decided to promote the riches of his region by exporting natural and authentic products internationally. Since the beginning, he has been committed to promoting respectful, pesticide-free, and quality-oriented agriculture.",
+    "history_block1_legend": "Mr. Parameiyan Saminathan – Founder of the company",
+    "history_block2_text": "The company quickly grew and acquired modern infrastructure to meet international market requirements. Our production site, located in the heart of Tamil Nadu, reflects our local roots and our desire to stay close to our land and producers.",
+    "history_block2_legend": "Our production site – Tamil Nadu",
+    "history_block3_text": "With the installation of our machines, we have structured an efficient and high-quality production, without ever losing the authenticity of our products. Our industrial tool is designed to support responsible and sustainable production.",
+    "history_block3_legend": "Our machines – Evolving know-how",
+    "history_quote": "A story built on work, passion, and respect for our land."
+  }

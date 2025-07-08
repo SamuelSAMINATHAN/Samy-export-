@@ -9,11 +9,7 @@ const navLinks = [
   { key: "menu_news", to: "/actualites" },
   {
     key: "menu_products",
-    dropdown: [
-      { key: "menu_products", to: "/produits#epices" },
-      { key: "menu_products", to: "/produits#cereales" },
-      { key: "menu_products", to: "/produits#autres" },
-    ],
+    to: "/produits",
   },
   { key: "menu_exports", to: "/exports" },
   { key: "menu_contact", to: "/contact" },
